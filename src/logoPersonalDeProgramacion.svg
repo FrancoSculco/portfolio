@@ -1,0 +1,26 @@
+ <svg xmlns="http://www.w3.org/2000/svg" width="50" height="35" viewBox="0 0 200 140" role="img">
+    <title>FS Logo</title>
+    <path
+      d="M60 96
+         C45 96, 34 86, 34 72
+         C34 62, 41 54, 51 51
+         C55 36, 70 26, 88 26
+         C96 26, 103 28, 110 32
+         C116 21, 129 15, 144 15
+         C166 15, 184 30, 186 50
+         C195 52, 202 60, 202 69
+         C202 83, 190 94, 174 94
+         C168 101, 156 106, 143 106
+         C132 106, 123 103, 116 99
+         C110 103, 101 106, 92 106
+         C82 106, 73 103, 66 99
+         C64 99, 62 99, 60 99
+         C58 99, 56 98, 54 97
+         C56 97, 58 96, 60 96 Z"
+      fill="none" stroke="#E11D2F" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="56%" y="50.5%" text-anchor="middle" dominant-baseline="middle"
+          font-family="Consolas, Menlo, 'Courier New', monospace"
+          font-weight="700" font-size="48" fill="#E11D2F">
+      &lt;FS&gt;
+    </text>
+  </svg>
