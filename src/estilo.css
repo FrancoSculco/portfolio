@@ -1,11 +1,11 @@
-/* =============== TOKENS & RESET =============== */
+/* ---------- TOKENS & RESET ---------- */
 :root {
-  /* Colores principales - podés ajustar sólo estos 3 */
-  --accent: #e11d2f;           /* rojo principal */
-  --accent-600: #c11224;       /* rojo más oscuro (hover) */
-  --accent-weak: #ffe6e8;      /* rojo muy suave para fondos */
+  /* Colores principales */
+  --accent: #e11d2f;          
+  --accent-600: #c11224;       
+  --accent-weak: #ffe6e8;      
 
-  /* Neutros (tema claro) */
+  /* Neutros */
   --bg: #fafafa;
   --bg-soft: #ffffff;
   --txt: #1f2937;
@@ -41,7 +41,7 @@
     --txt: #e5e7eb;
     --muted: #9aa4b2;
     --border: #232733;
-    --accent-weak: #2a1215; /* rojo muy oscuro para dark */
+    --accent-weak: #2a1215;
   }
 }
 
@@ -69,7 +69,7 @@ a:hover { text-decoration: underline; }
   outline-offset: 2px;
 }
 
-/* Contenedor global por sección (sin tocar tu HTML) */
+
 .header,
 .inicio,
 .sobreMi,
@@ -81,7 +81,7 @@ footer {
   margin-inline: auto;
 }
 
-/* =============== HEADER =============== */
+/* ---------- HEADER ---------- */
 .header {
   position: sticky;
   top: 0;
@@ -151,7 +151,7 @@ footer {
   .idioma { grid-area: idioma; }
 }
 
-/* =============== HERO / INICIO =============== */
+/* ---------- HERO / INICIO ---------- */
 .inicio {
   display: grid;
   grid-template-columns: 1.05fr .95fr;
@@ -189,7 +189,6 @@ footer {
   max-width: 60ch;
 }
 
-/* Botón principal (compartido) */
 .btnInicio {
   display: inline-flex;
   align-items: center;
@@ -229,7 +228,7 @@ footer {
   .foto { order: -1; }
 }
 
-/* =============== SOBRE MÍ =============== */
+/* ---------- SOBRE MÍ ---------- */
 .sobreMi {
   padding: 2.5rem 0;
 }
@@ -244,7 +243,7 @@ footer {
   color: var(--txt);
 }
 
-/* =============== PROYECTOS =============== */
+/* ---------- PROYECTOS ---------- */
 .proyectos {
   padding: 2.5rem 0 3rem;
 }
@@ -255,6 +254,7 @@ footer {
   font-weight: 800;
   margin-bottom: var(--space-2);
   letter-spacing: -0.01em;
+  grid-column: 1 / -1;
 }
 
 .proyectos {
@@ -317,7 +317,7 @@ footer {
   color: color-mix(in srgb, var(--txt) 70%, var(--muted) 30%);
 }
 
-/* =============== TECNOLOGÍAS =============== */
+/* ---------- TECNOLOGÍAS ---------- */
 .tecnologias {
   padding: 2.5rem 0;
 }
@@ -327,6 +327,7 @@ footer {
   font-size: var(--step-2);
   font-weight: 800;
   margin-bottom: var(--space-2);
+  grid-column: 1 / -1;
 }
 
 .tecnologias {
@@ -359,7 +360,7 @@ footer {
   font-weight: 600;
 }
 
-/* =============== CONTACTO =============== */
+/* ---------- CONTACTO ---------- */
 .contacto {
   padding: 2.5rem 0 3.5rem;
   display: grid;
@@ -406,7 +407,7 @@ footer {
   .contacto { grid-template-columns: 1fr; }
 }
 
-/* =============== FOOTER =============== */
+/* ---------- FOOTER ---------- */
 footer {
   width: min(1100px, 92vw);
   margin: 0 auto 2rem;
@@ -417,7 +418,7 @@ footer {
   text-align: center;
 }
 
-/* =============== UTILIDADES =============== */
+/* ---------- UTILIDADES ---------- */
 .muted { color: var(--muted); }
 .hide { display: none !important; }
 .center { display: grid; place-items: center; }
